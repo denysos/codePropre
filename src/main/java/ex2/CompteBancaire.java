@@ -42,7 +42,7 @@ public abstract class CompteBancaire {
 	 * 
 	 * @param montant
 	 */
-	public void ajouterMontant(double montant) {
+	public final void ajouterMontant(double montant) {
 		this.solde += montant;
 	}
 
